@@ -73,8 +73,3 @@ document.getElementById('iyaBtn').addEventListener('click', function () {
     document.getElementById('backgroundMusic').play();
   }, { once: true }); // Hanya berjalan sekali
 
-// Toggle Menu untuk Mobile
-document.getElementById('menuIcon').addEventListener('click', function () {
-    const navLinks = document.getElementById('navLinks');
-    navLinks.classList.toggle('active'); // Toggle class 'active'
-  });
